@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My fictional address</p>
+    <p>+237653116180</p>
+    <p>audranwolfhards@gmail.com</p>
+
+    <form action="mailto:audranwolfhards@gmail.com" enctype="text/plain">
+        <hr>
+        <label>Your Name:</label>
+        <input type="text" name="your name" value=""><br>
+        <hr>
+        <label>Your email:</label>
+        <input type="email" name="your email" value=""><br>
+        <hr>
+        <label>Your Message:</label><br>
+        <textarea name="your message" id="" cols="30" rows="10" placeholder="Type something here"></textarea><br>
+        <input type="submit" name="">
+        <hr>
+        
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button><br>
+    </form><br>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search youtube</button>
+    </form>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to the conditions and confidentialiteis</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m">
+        </p>
+        <button>Submit</button>
+        <p>
+            <label for="">Please selelct an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+
+            </select>
+        </p>
+        <p>
+            <label for="Cheese">Amount of cheese:</label>
+            <input type="range" id="Cheese" min="1" max="100" step="7" name="Cheese label">
+        </p>
+        <button>Submit</button>
+    </form>
+    <h2>Validatio Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" name="username id="username" minlength="10" maxlength="11" required>
+        </p>
+        <button>Submit</button>
+    </form><br>
+        <label for="division">Selected Age Group</label>
+        <select name="division" id="division">
+            <option value="kids" selected>uder 18</option>
+            <option value="adults">more than 18</option>
+            <option value="old">50+</option>
+
+        </select>
+    
+<hr>
+    <form action="date">
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+    </form>
+    <hr>
+</body>
+</html>

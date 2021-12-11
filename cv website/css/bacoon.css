@@ -1,0 +1,68 @@
+/*********************************TAG SELECTORS************************/
+
+h1 {
+    color: red;
+    animation: backwards;
+ }
+
+img {
+    background-color: red;
+}
+
+
+
+
+/*****************************TAG SELECTORS****************************/
+
+.bacon {
+    background-color: green;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+.broccoli {
+    background-color: red;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+/******************ID SELECTORS***************************************/
+* {
+    background-color: lightgray;
+}
+
+#type{
+    background-color: brown;
+}
+input[type="password"] {
+    color: blueviolet;
+}
+
+button:hover {
+    background-color: red;
+    color: #f1faee;
+}
+a:hover {
+    text-decoration: overline;
+    width: fit-content;
+}
+
+button:nth-of-type(2) {
+    background-color:indianred;
+}
